@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+  <menuitem label="Configuração">
+    <icon>fas:cogs fa-fw </icon>
+    <action>MillParametrosBancosList#method=onShow</action>
+    <menu>  
+                </menu>
+  </menuitem>
+  <menuitem label="Manutenção">
+    <icon>fas:cogs fa-fw </icon>
+    <menu>  
+                </menu>
+  </menuitem>
+  <menuitem label="Cadastros">
+    <icon>fas:user-plus fa-fw </icon>
+    <menu>
+      <menuitem label="Beneficiarios">
+        <icon>fas:user-lock fa-fw </icon>
+        <action>BeneficiarioList#method=onShow</action>
+      </menuitem>
+      <menuitem label="Clientes">
+        <icon>fas:user-check fa-fw </icon>
+        <action>ClienteList#method=onShow</action>
+      </menuitem>
+    </menu>
+  </menuitem>
+  <menuitem label="Configurações">
+    <icon>fas:cogs fa-fw </icon>
+    <menu>
+      <menuitem label="Controle meu numeross">
+        <icon>fas:sort-numeric-up-alt fa-fw </icon>
+        <action>ControleMeuNumerosList#method=onShow</action>
+      </menuitem>
+      <menuitem label="Layout Bancos">
+        <icon>fas:bacon fa-fw </icon>
+        <action>LayoutBancosList#method=onShow</action>
+      </menuitem>
+      <menuitem label="Bancos">
+        <icon>fas:blog fa-fw </icon>
+        <action>BancoList#method=onShow</action>
+      </menuitem>
+      <menuitem label="Situacao boletos">
+        <icon>fas:adjust fa-fw </icon>
+        <action>SituacaoBoletoList#method=onShow</action>
+      </menuitem>
+      <menuitem label="Workspaces santanders">
+        <icon>far:circle fa-fw </icon>
+        <action>WorkspacesSantanderList#method=onShow</action>
+      </menuitem>
+    </menu>
+  </menuitem>
+  <menuitem label="Cobranças(Titulos)">
+    <icon>fas:dollar-sign fa-fw </icon>
+    <action>CobrancaTituloList#method=onShow</action>
+    <menu>  
+                </menu>
+  </menuitem>
+  <menuitem label="Bancos">
+    <icon>fas:university fa-fw </icon>
+    <menu>  
+                </menu>
+  </menuitem>
+  <menuitem label="Parâmetros Bancos">
+    <icon>fas:cogs fa-fw </icon>
+    <action>ParametrosBancosList#method=onShow</action>
+    <menu>  
+                </menu>
+  </menuitem>
+</menu>
